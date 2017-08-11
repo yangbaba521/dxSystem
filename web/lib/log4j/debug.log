@@ -1,0 +1,86 @@
+[framework] 2016-11-29 11:44:08,104 - hxlife_award.saleActivated -0    [http-bio-8080-exec-6] DEBUG hxlife_award.saleActivated  - 50:start saleactive class
+[framework] 2016-11-29 11:44:08,109 - hxlife_award.saleActivated -5    [http-bio-8080-exec-6] INFO  hxlife_award.saleActivated  - 50:saleCodeSign=111111111,salePasswordSign=111111,saleRePasswordSign=111111,saleQuestionSign=111111,saleAnswerSign=111111;
+[framework] 2016-11-29 11:44:08,109 - hxlife_award.mysqlAction -5    [http-bio-8080-exec-6] DEBUG hxlife_award.mysqlAction  - 50:mysql start connect
+[framework] 2016-11-29 11:44:08,110 - hxlife_award.mysqlAction -6    [http-bio-8080-exec-6] INFO  hxlife_award.mysqlAction  - 50:drive=com.mysql.jdbc.Driver
+[framework] 2016-11-29 11:44:08,113 - hxlife_award.mysqlAction -9    [http-bio-8080-exec-6] INFO  hxlife_award.mysqlAction  - 50:url=jdbc:mysql://localhost:3306/hxlife_award?useUnicode=true&characterEncoding=utf8,usr=root,pwd=abcd123%;
+[framework] 2016-11-29 11:44:08,285 - hxlife_award.mysqlAction -181  [http-bio-8080-exec-6] DEBUG hxlife_award.mysqlAction  - 50:SELECT saleCode FROM sale WHERE saleCode='111111111';
+[framework] 2016-11-29 11:44:08,289 - hxlife_award.mysqlAction -185  [http-bio-8080-exec-6] DEBUG hxlife_award.mysqlAction  - 50: SELECT state FROM sale WHERE saleCode='111111111';
+[framework] 2016-11-29 11:44:08,289 - hxlife_award.mysqlAction -185  [http-bio-8080-exec-6] DEBUG hxlife_award.mysqlAction  - 50: UPDATE sale SET password='111111',question= '111111',answer= '111111',state= '1' WHERE saleCode='111111111';
+[framework] 2016-11-29 11:44:08,291 - hxlife_award.mysqlAction -187  [http-bio-8080-exec-6] DEBUG hxlife_award.mysqlAction  - 50:mysql close
+[framework] 2016-11-29 11:44:14,713 - hxlife_award.forgetPassword -6609 [http-bio-8080-exec-6] DEBUG hxlife_award.forgetPassword  - 50:start forgetpassword class
+[framework] 2016-11-29 11:44:14,714 - hxlife_award.forgetPassword -6610 [http-bio-8080-exec-6] INFO  hxlife_award.forgetPassword  - 50:saleForgetPasswordCode=111111111;
+[framework] 2016-11-29 11:44:14,715 - hxlife_award.mysqlAction -6611 [http-bio-8080-exec-6] DEBUG hxlife_award.mysqlAction  - 50:mysql start connect
+[framework] 2016-11-29 11:44:14,715 - hxlife_award.mysqlAction -6611 [http-bio-8080-exec-6] INFO  hxlife_award.mysqlAction  - 50:drive=com.mysql.jdbc.Driver
+[framework] 2016-11-29 11:44:14,716 - hxlife_award.mysqlAction -6612 [http-bio-8080-exec-6] INFO  hxlife_award.mysqlAction  - 50:url=jdbc:mysql://localhost:3306/hxlife_award?useUnicode=true&characterEncoding=utf8,usr=root,pwd=abcd123%;
+[framework] 2016-11-29 11:44:14,739 - hxlife_award.mysqlAction -6635 [http-bio-8080-exec-6] DEBUG hxlife_award.mysqlAction  - 50:SELECT saleCode FROM sale WHERE saleCode='111111111';
+[framework] 2016-11-29 11:44:14,740 - hxlife_award.mysqlAction -6636 [http-bio-8080-exec-6] DEBUG hxlife_award.mysqlAction  - 50: SELECT question FROM sale WHERE saleCode='111111111';
+[framework] 2016-11-29 11:44:14,742 - hxlife_award.mysqlAction -6638 [http-bio-8080-exec-6] DEBUG hxlife_award.mysqlAction  - 50:mysql close
+[framework] 2016-11-29 11:44:16,960 - hxlife_award.getPassword -8856 [http-bio-8080-exec-6] DEBUG hxlife_award.getPassword  - 50:start getpassword class
+[framework] 2016-11-29 11:44:16,961 - hxlife_award.getPassword -8857 [http-bio-8080-exec-6] INFO  hxlife_award.getPassword  - 50:saleForgetPasswordCode=111111111,saleForgetPasswordAnswer=111111;
+[framework] 2016-11-29 11:44:16,962 - hxlife_award.mysqlAction -8858 [http-bio-8080-exec-6] DEBUG hxlife_award.mysqlAction  - 50:mysql start connect
+[framework] 2016-11-29 11:44:16,963 - hxlife_award.mysqlAction -8859 [http-bio-8080-exec-6] INFO  hxlife_award.mysqlAction  - 50:drive=com.mysql.jdbc.Driver
+[framework] 2016-11-29 11:44:16,964 - hxlife_award.mysqlAction -8860 [http-bio-8080-exec-6] INFO  hxlife_award.mysqlAction  - 50:url=jdbc:mysql://localhost:3306/hxlife_award?useUnicode=true&characterEncoding=utf8,usr=root,pwd=abcd123%;
+[framework] 2016-11-29 11:44:16,978 - hxlife_award.mysqlAction -8874 [http-bio-8080-exec-6] DEBUG hxlife_award.mysqlAction  - 50: SELECT answer,password FROM sale WHERE saleCode='111111111';
+[framework] 2016-11-29 11:44:16,979 - hxlife_award.mysqlAction -8875 [http-bio-8080-exec-6] DEBUG hxlife_award.mysqlAction  - 50:mysql close
+[framework] 2016-11-29 11:44:42,137 - hxlife_award.award -34033 [http-bio-8080-exec-6] DEBUG hxlife_award.award  - 50:start award class
+[framework] 2016-11-29 11:44:42,137 - hxlife_award.award -34033 [http-bio-8080-exec-6] INFO  hxlife_award.award  - 50:salecode=111111111,usercode=孙,usertel=13951905973,check=1111;
+[framework] 2016-11-29 11:44:42,138 - hxlife_award.mysqlAction -34034 [http-bio-8080-exec-6] DEBUG hxlife_award.mysqlAction  - 50:mysql start connect
+[framework] 2016-11-29 11:44:42,138 - hxlife_award.mysqlAction -34034 [http-bio-8080-exec-6] INFO  hxlife_award.mysqlAction  - 50:drive=com.mysql.jdbc.Driver
+[framework] 2016-11-29 11:44:42,138 - hxlife_award.mysqlAction -34034 [http-bio-8080-exec-6] INFO  hxlife_award.mysqlAction  - 50:url=jdbc:mysql://localhost:3306/hxlife_award?useUnicode=true&characterEncoding=utf8,usr=root,pwd=abcd123%;
+[framework] 2016-11-29 11:44:42,154 - hxlife_award.mysqlAction -34050 [http-bio-8080-exec-6] DEBUG hxlife_award.mysqlAction  - 50: SELECT state FROM sale WHERE saleCode='111111111';
+[framework] 2016-11-29 11:44:42,155 - hxlife_award.mysqlAction -34051 [http-bio-8080-exec-6] DEBUG hxlife_award.mysqlAction  - 50: SELECT awardTime FROM user WHERE userTel='13951905973';
+[framework] 2016-11-29 11:44:42,156 - hxlife_award.mysqlAction -34052 [http-bio-8080-exec-6] DEBUG hxlife_award.mysqlAction  - 50:mysql close
+[framework] 2016-11-29 11:44:42,167 - hxlife_award.getAward -34063 [http-bio-8080-exec-6] DEBUG hxlife_award.getAward  - 50:start getaward class
+[framework] 2016-11-29 11:44:42,168 - hxlife_award.getAward -34064 [http-bio-8080-exec-6] INFO  hxlife_award.getAward  - 50:saleCode=111111111,award=5,usetel=13951905973;
+[framework] 2016-11-29 11:44:42,169 - hxlife_award.mysqlAction -34065 [http-bio-8080-exec-6] DEBUG hxlife_award.mysqlAction  - 50:mysql start connect
+[framework] 2016-11-29 11:44:42,170 - hxlife_award.mysqlAction -34066 [http-bio-8080-exec-6] INFO  hxlife_award.mysqlAction  - 50:drive=com.mysql.jdbc.Driver
+[framework] 2016-11-29 11:44:42,170 - hxlife_award.mysqlAction -34066 [http-bio-8080-exec-6] INFO  hxlife_award.mysqlAction  - 50:url=jdbc:mysql://localhost:3306/hxlife_award?useUnicode=true&characterEncoding=utf8,usr=root,pwd=abcd123%;
+[framework] 2016-11-29 11:44:42,184 - hxlife_award.mysqlAction -34080 [http-bio-8080-exec-6] DEBUG hxlife_award.mysqlAction  - 50: SELECT awardNum5 FROM awardList WHERE actionCode='1000';
+[framework] 2016-11-29 11:44:42,185 - hxlife_award.mysqlAction -34081 [http-bio-8080-exec-6] DEBUG hxlife_award.mysqlAction  - 50: SELECT userAward,userTime,awardTime FROM user WHERE userTel='13951905973';
+[framework] 2016-11-29 11:44:42,186 - hxlife_award.mysqlAction -34082 [http-bio-8080-exec-6] DEBUG hxlife_award.mysqlAction  - 50: UPDATE user SET userAward='奖品4:奖品7:奖品5:奖品5',userTime= '2016-11-18 15:16:51/2016-11-18 15:41:38/2016-11-28 16:27:09/2016-11-29 11:44:42' WHERE userTel='13951905973';
+[framework] 2016-11-29 11:44:42,187 - hxlife_award.mysqlAction -34083 [http-bio-8080-exec-6] DEBUG hxlife_award.mysqlAction  - 50:INSERT into award VALUE (NULL,'13951905973','111111111','2016-11-29 11:44:42','奖品5');
+[framework] 2016-11-29 11:44:42,189 - hxlife_award.mysqlAction -34085 [http-bio-8080-exec-6] DEBUG hxlife_award.mysqlAction  - 50: UPDATE user SET awardTime='101' WHERE userTel='13951905973';
+[framework] 2016-11-29 11:44:42,194 - hxlife_award.mysqlAction -34090 [http-bio-8080-exec-6] DEBUG hxlife_award.mysqlAction  - 50:mysql close
+[framework] 2016-11-29 11:44:58,839 - hxlife_award.getPassword -50735 [http-bio-8080-exec-6] DEBUG hxlife_award.getPassword  - 50:start searchaward class
+[framework] 2016-11-29 11:44:58,839 - hxlife_award.getPassword -50735 [http-bio-8080-exec-6] INFO  hxlife_award.getPassword  - 50:userTelephone=13951905973,userLoginCheck=1111;
+[framework] 2016-11-29 11:44:58,839 - hxlife_award.mysqlAction -50735 [http-bio-8080-exec-6] DEBUG hxlife_award.mysqlAction  - 50:mysql start connect
+[framework] 2016-11-29 11:44:58,840 - hxlife_award.mysqlAction -50736 [http-bio-8080-exec-6] INFO  hxlife_award.mysqlAction  - 50:drive=com.mysql.jdbc.Driver
+[framework] 2016-11-29 11:44:58,840 - hxlife_award.mysqlAction -50736 [http-bio-8080-exec-6] INFO  hxlife_award.mysqlAction  - 50:url=jdbc:mysql://localhost:3306/hxlife_award?useUnicode=true&characterEncoding=utf8,usr=root,pwd=abcd123%;
+[framework] 2016-11-29 11:44:58,852 - hxlife_award.mysqlAction -50748 [http-bio-8080-exec-6] DEBUG hxlife_award.mysqlAction  - 50: SELECT userAward,userTime FROM user WHERE userTel='13951905973';
+[framework] 2016-11-29 11:44:58,853 - hxlife_award.mysqlAction -50749 [http-bio-8080-exec-6] DEBUG hxlife_award.mysqlAction  - 50:mysql close
+[framework] 2016-11-29 11:45:29,613 - hxlife_award.question -81509 [http-bio-8080-exec-4] DEBUG hxlife_award.question  - 47:start question class
+[framework] 2016-11-29 11:45:29,614 - hxlife_award.question -81510 [http-bio-8080-exec-4] INFO  hxlife_award.question  - 47:userTelephone=13951905973,userLoginCheck=1111,name=孙,saleCode=111111111,question1=1,question2=1,question3=2,question4=1;
+[framework] 2016-11-29 11:45:29,615 - hxlife_award.mysqlAction -81511 [http-bio-8080-exec-4] DEBUG hxlife_award.mysqlAction  - 47:mysql start connect
+[framework] 2016-11-29 11:45:29,615 - hxlife_award.mysqlAction -81511 [http-bio-8080-exec-4] INFO  hxlife_award.mysqlAction  - 47:drive=com.mysql.jdbc.Driver
+[framework] 2016-11-29 11:45:29,615 - hxlife_award.mysqlAction -81511 [http-bio-8080-exec-4] INFO  hxlife_award.mysqlAction  - 47:url=jdbc:mysql://localhost:3306/hxlife_award?useUnicode=true&characterEncoding=utf8,usr=root,pwd=abcd123%;
+[framework] 2016-11-29 11:45:29,629 - hxlife_award.mysqlAction -81525 [http-bio-8080-exec-4] DEBUG hxlife_award.mysqlAction  - 47: SELECT state FROM sale WHERE saleCode='111111111';
+[framework] 2016-11-29 11:45:29,630 - hxlife_award.mysqlAction -81526 [http-bio-8080-exec-4] DEBUG hxlife_award.mysqlAction  - 47: SELECT question FROM user WHERE userTel='13951905973';
+[framework] 2016-11-29 11:45:29,631 - hxlife_award.mysqlAction -81527 [http-bio-8080-exec-4] DEBUG hxlife_award.mysqlAction  - 47:mysql close
+[framework] 2016-11-29 11:45:49,170 - hxlife_award.getPassword -101066 [http-bio-8080-exec-4] DEBUG hxlife_award.getPassword  - 47:start salelogin class
+[framework] 2016-11-29 11:45:49,170 - hxlife_award.getPassword -101066 [http-bio-8080-exec-4] INFO  hxlife_award.getPassword  - 47:saleCode=111111111,salePassword=111111;
+[framework] 2016-11-29 11:45:49,171 - hxlife_award.mysqlAction -101067 [http-bio-8080-exec-4] DEBUG hxlife_award.mysqlAction  - 47:mysql start connect
+[framework] 2016-11-29 11:45:49,171 - hxlife_award.mysqlAction -101067 [http-bio-8080-exec-4] INFO  hxlife_award.mysqlAction  - 47:drive=com.mysql.jdbc.Driver
+[framework] 2016-11-29 11:45:49,171 - hxlife_award.mysqlAction -101067 [http-bio-8080-exec-4] INFO  hxlife_award.mysqlAction  - 47:url=jdbc:mysql://localhost:3306/hxlife_award?useUnicode=true&characterEncoding=utf8,usr=root,pwd=abcd123%;
+[framework] 2016-11-29 11:45:49,181 - hxlife_award.mysqlAction -101077 [http-bio-8080-exec-4] DEBUG hxlife_award.mysqlAction  - 47: SELECT password FROM sale WHERE saleCode='111111111';
+[framework] 2016-11-29 11:45:49,182 - hxlife_award.mysqlAction -101078 [http-bio-8080-exec-4] DEBUG hxlife_award.mysqlAction  - 47:mysql close
+[framework] 2016-11-29 11:45:49,529 - hxlife_award.getPassword -101425 [http-bio-8080-exec-7] DEBUG hxlife_award.getPassword  - 51:start salework class
+[framework] 2016-11-29 11:45:49,530 - hxlife_award.getPassword -101426 [http-bio-8080-exec-7] INFO  hxlife_award.getPassword  - 51:saleCode=111111111;
+[framework] 2016-11-29 11:45:49,530 - hxlife_award.mysqlAction -101426 [http-bio-8080-exec-7] DEBUG hxlife_award.mysqlAction  - 51:mysql start connect
+[framework] 2016-11-29 11:45:49,530 - hxlife_award.mysqlAction -101426 [http-bio-8080-exec-7] INFO  hxlife_award.mysqlAction  - 51:drive=com.mysql.jdbc.Driver
+[framework] 2016-11-29 11:45:49,531 - hxlife_award.mysqlAction -101427 [http-bio-8080-exec-7] INFO  hxlife_award.mysqlAction  - 51:url=jdbc:mysql://localhost:3306/hxlife_award?useUnicode=true&characterEncoding=utf8,usr=root,pwd=abcd123%;
+[framework] 2016-11-29 11:45:49,547 - hxlife_award.mysqlAction -101443 [http-bio-8080-exec-7] DEBUG hxlife_award.mysqlAction  - 51: SELECT userName,userTel,userAward,userTime,question FROM user WHERE userSale='111111111';
+[framework] 2016-11-29 11:45:49,548 - hxlife_award.mysqlAction -101444 [http-bio-8080-exec-7] DEBUG hxlife_award.mysqlAction  - 51:mysql close
+[framework] 2016-11-29 11:46:09,245 - hxlife_award.getPassword -121141 [http-bio-8080-exec-7] DEBUG hxlife_award.getPassword  - 47:start salelogin class
+[framework] 2016-11-29 11:46:09,246 - hxlife_award.getPassword -121142 [http-bio-8080-exec-7] INFO  hxlife_award.getPassword  - 47:saleCode=123456789,salePassword=123456;
+[framework] 2016-11-29 11:46:09,246 - hxlife_award.mysqlAction -121142 [http-bio-8080-exec-7] DEBUG hxlife_award.mysqlAction  - 51:mysql start connect
+[framework] 2016-11-29 11:46:09,247 - hxlife_award.mysqlAction -121143 [http-bio-8080-exec-7] INFO  hxlife_award.mysqlAction  - 51:drive=com.mysql.jdbc.Driver
+[framework] 2016-11-29 11:46:09,247 - hxlife_award.mysqlAction -121143 [http-bio-8080-exec-7] INFO  hxlife_award.mysqlAction  - 51:url=jdbc:mysql://localhost:3306/hxlife_award?useUnicode=true&characterEncoding=utf8,usr=root,pwd=abcd123%;
+[framework] 2016-11-29 11:46:09,258 - hxlife_award.mysqlAction -121154 [http-bio-8080-exec-7] DEBUG hxlife_award.mysqlAction  - 51: SELECT password FROM sale WHERE saleCode='123456789';
+[framework] 2016-11-29 11:46:09,259 - hxlife_award.mysqlAction -121155 [http-bio-8080-exec-7] DEBUG hxlife_award.mysqlAction  - 51:mysql close
+[framework] 2016-11-29 11:46:09,387 - hxlife_award.getPassword -121283 [http-bio-8080-exec-10] DEBUG hxlife_award.getPassword  - 51:start salework class
+[framework] 2016-11-29 11:46:09,388 - hxlife_award.getPassword -121284 [http-bio-8080-exec-10] INFO  hxlife_award.getPassword  - 51:saleCode=123456789;
+[framework] 2016-11-29 11:46:09,388 - hxlife_award.mysqlAction -121284 [http-bio-8080-exec-10] DEBUG hxlife_award.mysqlAction  - 54:mysql start connect
+[framework] 2016-11-29 11:46:09,389 - hxlife_award.mysqlAction -121285 [http-bio-8080-exec-10] INFO  hxlife_award.mysqlAction  - 54:drive=com.mysql.jdbc.Driver
+[framework] 2016-11-29 11:46:09,389 - hxlife_award.mysqlAction -121285 [http-bio-8080-exec-10] INFO  hxlife_award.mysqlAction  - 54:url=jdbc:mysql://localhost:3306/hxlife_award?useUnicode=true&characterEncoding=utf8,usr=root,pwd=abcd123%;
+[framework] 2016-11-29 11:46:09,410 - hxlife_award.mysqlAction -121306 [http-bio-8080-exec-10] DEBUG hxlife_award.mysqlAction  - 54: SELECT userName,userTel,userAward,userTime,question FROM user WHERE userSale='123456789';
+[framework] 2016-11-29 11:46:09,413 - hxlife_award.mysqlAction -121309 [http-bio-8080-exec-10] DEBUG hxlife_award.mysqlAction  - 54:mysql close

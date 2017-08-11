@@ -1,0 +1,80 @@
+
+#home_body_action_area_table{
+    height: 460px;
+    width: 90%;
+    float: left;
+    margin-left: 5%;
+    overflow-x:auto;
+    overflow-y: hidden;
+
+}
+#home_body_action_area_table table{
+    height: 460px;
+    width: 300%;
+    float: left;
+}
+
+#home_body_action_area_table_title{
+    color:#2a639b;
+    font-size: 15px;
+    text-align: center;
+}
+
+#home_body_action_area_table_title th{
+    width: auto;
+}
+#home_body_action_area_function{
+    height: 120px;
+    width: 90%;
+    float: left;
+    margin-left: 5%;
+}
+
+#home_body_action_area_function div{
+    height: 30px;
+    width: 100%;
+    float: left;
+}
+
+#home_body_action_area_function input[type=button]{
+    height: 20px;
+    width: 8%;
+    float: left;
+    margin-top: 5px;
+    margin-left: 1%;
+    background-color: #2a639b;
+    color: #ffffff;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+
+#home_body_action_area_function span{
+    height: 20px;
+    width: 20%;
+    float: left;
+    margin-top: 5px;
+    margin-left: 1%;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+    border-bottom: 1px solid #2a639b;
+}
+
+.noFile{
+    color: #777777;
+}
+
+.fileReady{
+    color: #2a639b;
+}
+
+
+#home_body_action_area_function input[type=button]:hover{
+    box-shadow:0 0 5px #2a639b;/*左边阴影*/
+}
+
+
+
+

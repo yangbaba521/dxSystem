@@ -1,0 +1,207 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{
+    margin:0;
+    padding:0;
+    border: 0;
+}
+body{
+    font-family:"Microsoft YaHei";
+}
+ul,ol {list-style-type:none;
+}
+select,input,img,select{
+    vertical-align:middle;
+}
+input[type=button]{
+    cursor: pointer;
+}
+.border{
+    border: solid #000000 1px;
+}
+
+.normal_input{
+    border: 1px #c8d9e4 solid;
+}
+
+.wrong_input{
+    border: solid #f63a0f 1px;
+}
+
+.hide{
+    display: none;
+}
+
+.click_border{
+    border: none;
+    border-color: rgb(61,151,220);
+    box-shadow:0 0 5px rgb(61,151,220);/*左边阴影*/
+}
+
+#findPwd_bg{
+    height: 800px;
+    width: 1200px;
+    background-color: #e6e6e6;
+    background-size: 100% 100%;
+    margin: 0 auto;
+
+}
+
+#findPwd{
+    height: 440px;
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 20%;
+    background-image: url("../img/findPwd_bg.png");
+    background-size: 100% 100%;
+    float: left;
+}
+
+#findPwd_info_text{
+    height: 150px;
+    width: 80%;
+    float: left;
+    margin-top:22%;
+    margin-left: 10%;
+
+}
+
+#findPwd_user{
+    height: 150px;
+    width: 80%;
+    float: left;
+    margin-top:22%;
+    margin-left: 10%;
+}
+
+
+#findPwd_button{
+    height: 80px;
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+
+}
+
+#findPwd_info_text_span{
+    height: 85px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5px;
+    float: left;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#findPwd_info_text_answer{
+    height: 55px;
+    width: 80%;
+    margin-left: 10%;
+    float: left;
+}
+
+#findPwd_info_text_answer_span{
+    height: 36px;
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 20%;
+    font-size: 20px;
+    font-weight: bold;
+    font-weight: bold;
+    text-align: center;
+    line-height: 36px;
+}
+
+#findPwd_info_text_answer_input{
+    height: 36px;
+    width: 40%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5%;
+    font-size: 28px;
+    font-weight: bold;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#findPwd_user_info{
+    height: 150px;
+    width: 80%;
+    float: left;
+    margin-left: 10%;
+}
+
+#findPwd_user_info label{
+    height: 30px;
+    width: 25%;
+    float: left;
+    margin-top: 60px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+#findPwd_user_info_input{
+    height: 30px;
+    width: 40%;
+    float: left;
+    margin-top: 60px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 2%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#findPwd_button_back{
+    height: 35px;
+    width: 20%;
+    margin-left: 20%;
+    margin-top: 4%;
+    float: left;
+    border: 1px #c8d9e4 solid;
+    background-color: #f0e9d6;
+    color: #bc5753;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#findPwd_button_submitQ{
+    height: 35px;
+    width: 20%;
+    margin-left: 20%;
+    margin-top: 4%;
+    float: left;
+    border: 1px #c8d9e4 solid;
+    background-color: #f0e9d6;
+    color: #bc5753;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#findPwd_button_submitUser{
+    height: 35px;
+    width: 20%;
+    margin-left: 20%;
+    margin-top: 4%;
+    float: left;
+    border: 1px #c8d9e4 solid;
+    background-color: #f0e9d6;
+    color: #bc5753;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#findPwd_button_submitUser:hover,#findPwd_button_submitQ:hover,#findPwd_button_back:hover {
+    border: 1px #c8d9e4 solid;
+    box-shadow:0 0 5px rgb(61,151,220);/*左边阴影*/
+}

@@ -1,0 +1,316 @@
+.readyInput{
+    border:1px solid #0066FF;
+}
+.wrongInput{
+    border:1px solid #cc0000;
+}
+.accessInput{
+    border:1px solid #2ecc71;
+}
+
+#home_body_action_area_select{
+    height: 40px;
+    width: 95%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 2.5%;
+}
+
+#home_body_action_area_select>div[name=type]{
+    height: 40px;
+    width: 20%;
+    float: left;
+    margin-left:3%;
+}
+#home_body_action_area_select>div[name=value]{
+    height: 40px;
+    width: 50%;
+    float: left;
+    margin-left:3%;
+    display: none;
+}
+
+#home_body_action_area_select_action{
+    height: 40px;
+    width: 20%;
+    float: left;
+    margin-left:3%;
+}
+
+#home_body_action_area_select_action>input[type=button]{
+    height: 25px;
+    width: 30%;
+    margin-top: 10px;
+    float: left;
+    margin-left:3%;
+    border-radius: 10px;
+}
+
+#home_body_action_area_select>div[name=value]>div[name=partTarget]{
+    height: 40px;
+    width: 70%;
+    float: left;
+    margin-left:3%;
+    display: none;
+}
+
+#home_body_action_area_select>div[name=value]>div[name=normal]{
+    height: 40px;
+    width: 30%;
+    float: left;
+    margin-left:3%;
+
+}
+
+#home_body_action_area_select>div[name=type]>span,
+#home_body_action_area_select>div[name=value]>span{
+    height: 40px;
+    width: auto;
+    float: left;
+    font-size: 13px;
+    color: #10a6b4;
+    line-height: 40px;
+}
+
+#home_body_action_area_select>div[name=value]>div[name=partTarget]>span{
+    height: 40px;
+    width: auto;
+    float: left;
+    font-size: 13px;
+    color: #10a6b4;
+    line-height: 40px;
+    margin-left: 1%;
+}
+
+#home_body_action_area_select>div[name=type]>select{
+    height: 25px;
+    width: 70%;
+    float: left;
+    font-size: 13px;
+    color: #2a639b;
+    margin-top: 10px;
+    margin-left: 1%;
+    text-align: center;
+}
+#home_body_action_area_select>div[name=value]>div[name=partTarget]>select{
+    height: 25px;
+    width: 30%;
+    float: left;
+    font-size: 12px;
+    color: #2a639b;
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 2%;
+}
+
+#home_body_action_area_select>div[name=value]>div[name=partTarget]>input{
+    height: 20px;
+    width: 30%;
+    float: left;
+    font-size: 12px;
+    color: #2a639b;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 1%;
+}
+
+#home_body_action_area_select>div[name=value]>div[name=normal]>input{
+    height: 20px;
+    width: 100%;
+    float: left;
+    font-size: 12px;
+    color: #2a639b;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#home_body_action_area_infoAction{
+    height: 50px;
+    width: 95%;
+    float: left;
+    margin-top: 5px;
+    margin-left: 2.5%;
+}
+
+#home_body_action_area_infoAction_download{
+    height: 50px;
+    width: 20%;
+    float: left;
+}
+
+#home_body_action_area_infoAction_download input[type=button]{
+    height: 30px;
+    width: 60%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 2%;
+    background-color: #2a639b;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid #2c4557;
+    border-radius: 5px;
+}
+
+#home_body_action_area_infoAction_download input[type=button]:hover{
+    border: none;
+    box-shadow:0 0 5px rgb(61,151,220);/*左边阴影*/
+}
+
+#home_body_action_area_infoAction_function{
+    height: 50px;
+    width: 80%;
+    float: left;
+}
+
+#home_body_action_area_infoAction_function  input[type=button]{
+    height: 30px;
+    width: 15%;
+    float: right;
+    margin-top: 10px;
+    margin-right: 2%;
+    background-color: #2a639b;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid #2c4557;
+    border-radius: 5px;
+}
+
+#home_body_action_area_infoAction_function  input[type=button]:hover{
+    border: none;
+    box-shadow:0 0 5px rgb(61,151,220);/*左边阴影*/
+}
+
+#home_body_action_area_infoAction_function_fileName{
+    height: 30px;
+    width: 20%;
+    float: right;
+    margin-top: 10px;
+    margin-right: 2%;
+    color: #2ecc71;
+    font-size: 15px;
+    line-height: 30px;
+    border-bottom: 1px solid #2a639b;
+}
+
+#home_body_action_area_infoAction_single{
+    height: 200px;
+    width: 80%;
+    position: absolute;
+    top:100px;
+    left:10%;
+    background-color: #ffffff;
+    border: 1px solid #2ecc71;
+    border-radius: 10px;
+    display: none;
+    z-index: 3;
+
+}
+
+#partInfo{
+    height: 450px;
+    width: 40%;
+    background-color: #10a6b4;
+    border-radius: 10px;
+    border-color: #1bbccb;
+    position: absolute;
+    top:150px;
+    left: 30%;
+    display: none;
+    z-index: 3;
+}
+
+#partInfo>div[name=title]{
+    height: 50px;
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+    text-align: center;
+}
+
+
+#partInfo>div[name=title]>span[name=title]{
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#partInfo>div[name=title]>span[name=line]{
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+#partInfo>div[name=info]{
+    height: 300px;
+    width: 100%;
+    float: left;
+    margin-top: 15px;
+}
+
+#partInfo>div[name=info]>div{
+    height: 40px;
+    width: 100%;
+    float: left;
+}
+#partInfo>div[name=info]>div>label{
+    height: 40px;
+    width: 20%;
+    float: left;
+    margin-left: 20%;
+    font-size: 15px;
+    line-height: 40px;
+    color: #ffffff;
+}
+
+#partInfo>div[name=info]>div>input{
+    height: 25px;
+    width: 40%;
+    float: left;
+    margin-top: 7.5px;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#partInfo>div[name=info]>div>img{
+    height: 25px;
+    width: 25px;
+    float: left;
+    margin-top: 7.5px;
+    margin-left: 2%;
+    display: none;
+}
+
+#partInfo_button{
+    height: 50px;
+    width: 100%;
+    float: left;
+}
+
+#partInfo_button>input[type=button]{
+    height: 40px;
+    width: 20%;
+    margin-left: 20%;
+    margin-top: 5px;
+    border: 1px solid #2ecc71;
+    background-color: #2a639b;
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#partInfo_button>input[type=button]:hover{
+    border: none;
+    box-shadow:0 0 10px #2ecc71;/*左边阴影*/
+}
+
+#partInfoList{
+    font-size: 12px;
+}

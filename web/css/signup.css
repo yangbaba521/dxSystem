@@ -1,0 +1,135 @@
+
+.click_border{
+    border-color: rgb(61,151,220);
+    box-shadow:0 0 5px rgb(61,151,220);/*左边阴影*/
+}
+
+.normal_input{
+    border: 1px #c8d9e4 solid;
+}
+
+.wrong_input{
+    border: solid #f63a0f 1px;
+}
+
+.pass_span{
+    color:#2ecc71;
+}
+
+.faill_span{
+    color: #cc0000;
+}
+
+.hide{
+    display: none;
+}
+
+#signup_bg{
+    height: 800px;
+    width: 1200px;
+    background-color: #e6e6e6;
+    background-size: 100% 100%;
+    margin: 0 auto;
+
+}
+
+#signup{
+    height: 640px;
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 20%;
+    background-image: url("../img/signup_info_bg.png");
+    background-size: 100% 100%;
+    float: left;
+}
+
+#signup_info_text{
+    height: 382px;
+    width: 84%;
+    float: left;
+    margin-top:22%;
+    margin-left: 8%;
+
+}
+
+#signup_info_text div{
+    height: 40px;
+    width: 80%;
+    margin-left: 10%;
+    float: left;
+
+}
+
+#signup_info_text div label{
+    height: 40px;
+    width: 15%;
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 40px;
+
+
+}
+
+#signup_info_text div input{
+    height: 36px;
+    width: 40%;
+    float: left;
+    margin-top: 2px;
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+#signup_info_text div select{
+    height: 36px;
+    width: 40%;
+    float: left;
+    margin-top: 2px;
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#signup_info_text div span{
+    height: 40px;
+    width: 45%;
+    float: left;
+    font-size: 9px;
+    font-weight: bold;
+    line-height: 40px;
+
+}
+
+#signup_button{
+    height: 50px;
+    width: 80%;
+    margin-left: 10%;
+    float: left;
+}
+
+#signup_button input{
+    height: 35px;
+    width: 20%;
+    margin-left: 20%;
+    margin-top: 2%;
+    float: left;
+    border: 1px #c8d9e4 solid;
+    background-color: #f0e9d6;
+    color: #bc5753;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#signup_button input:hover {
+    border: 1px #c8d9e4 solid;
+    box-shadow: 0 0 5px rgb(61, 151, 220); /*左边阴影*/
+}
+

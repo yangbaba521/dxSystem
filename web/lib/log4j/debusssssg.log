@@ -1,0 +1,711 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Log4J Log Messages</title>
+<style type="text/css">
+<!--
+body, table {font-family: arial,sans-serif; font-size: x-small;}
+th {background: #336699; color: #FFFFFF; text-align: left;}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" topmargin="6" leftmargin="6">
+<hr size="1" noshade>
+Log session start time Tue Nov 29 11:44:08 CST 2016<br>
+<br>
+<table cellspacing="0" cellpadding="4" border="1" bordercolor="#224466" width="100%">
+<tr>
+<th>Time</th>
+<th>Thread</th>
+<th>Level</th>
+<th>Category</th>
+<th>Message</th>
+</tr>
+
+<tr>
+<td>0</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.saleActivated category">hxlife_award.saleActivated</td>
+<td title="Message">50:start saleactive class</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.saleActivated category">hxlife_award.saleActivated</td>
+<td title="Message">50:saleCodeSign=111111111,salePasswordSign=111111,saleRePasswordSign=111111,saleQuestionSign=111111,saleAnswerSign=111111;</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:mysql start connect</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:drive=com.mysql.jdbc.Driver</td>
+</tr>
+
+<tr>
+<td>9</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:url=jdbc:mysql://localhost:3306/hxlife_award?useUnicode=true&characterEncoding=utf8,usr=root,pwd=abcd123%;</td>
+</tr>
+
+<tr>
+<td>181</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:SELECT saleCode FROM sale WHERE saleCode='111111111';</td>
+</tr>
+
+<tr>
+<td>185</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50: SELECT state FROM sale WHERE saleCode='111111111';</td>
+</tr>
+
+<tr>
+<td>185</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50: UPDATE sale SET password='111111',question= '111111',answer= '111111',state= '1' WHERE saleCode='111111111';</td>
+</tr>
+
+<tr>
+<td>187</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:mysql close</td>
+</tr>
+
+<tr>
+<td>6609</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.forgetPassword category">hxlife_award.forgetPassword</td>
+<td title="Message">50:start forgetpassword class</td>
+</tr>
+
+<tr>
+<td>6610</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.forgetPassword category">hxlife_award.forgetPassword</td>
+<td title="Message">50:saleForgetPasswordCode=111111111;</td>
+</tr>
+
+<tr>
+<td>6611</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:mysql start connect</td>
+</tr>
+
+<tr>
+<td>6611</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:drive=com.mysql.jdbc.Driver</td>
+</tr>
+
+<tr>
+<td>6612</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:url=jdbc:mysql://localhost:3306/hxlife_award?useUnicode=true&characterEncoding=utf8,usr=root,pwd=abcd123%;</td>
+</tr>
+
+<tr>
+<td>6635</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:SELECT saleCode FROM sale WHERE saleCode='111111111';</td>
+</tr>
+
+<tr>
+<td>6636</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50: SELECT question FROM sale WHERE saleCode='111111111';</td>
+</tr>
+
+<tr>
+<td>6638</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:mysql close</td>
+</tr>
+
+<tr>
+<td>8856</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.getPassword category">hxlife_award.getPassword</td>
+<td title="Message">50:start getpassword class</td>
+</tr>
+
+<tr>
+<td>8857</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.getPassword category">hxlife_award.getPassword</td>
+<td title="Message">50:saleForgetPasswordCode=111111111,saleForgetPasswordAnswer=111111;</td>
+</tr>
+
+<tr>
+<td>8858</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:mysql start connect</td>
+</tr>
+
+<tr>
+<td>8859</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:drive=com.mysql.jdbc.Driver</td>
+</tr>
+
+<tr>
+<td>8860</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:url=jdbc:mysql://localhost:3306/hxlife_award?useUnicode=true&characterEncoding=utf8,usr=root,pwd=abcd123%;</td>
+</tr>
+
+<tr>
+<td>8874</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50: SELECT answer,password FROM sale WHERE saleCode='111111111';</td>
+</tr>
+
+<tr>
+<td>8875</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:mysql close</td>
+</tr>
+
+<tr>
+<td>34033</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.award category">hxlife_award.award</td>
+<td title="Message">50:start award class</td>
+</tr>
+
+<tr>
+<td>34033</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.award category">hxlife_award.award</td>
+<td title="Message">50:salecode=111111111,usercode=孙,usertel=13951905973,check=1111;</td>
+</tr>
+
+<tr>
+<td>34034</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:mysql start connect</td>
+</tr>
+
+<tr>
+<td>34034</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:drive=com.mysql.jdbc.Driver</td>
+</tr>
+
+<tr>
+<td>34034</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:url=jdbc:mysql://localhost:3306/hxlife_award?useUnicode=true&characterEncoding=utf8,usr=root,pwd=abcd123%;</td>
+</tr>
+
+<tr>
+<td>34050</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50: SELECT state FROM sale WHERE saleCode='111111111';</td>
+</tr>
+
+<tr>
+<td>34051</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50: SELECT awardTime FROM user WHERE userTel='13951905973';</td>
+</tr>
+
+<tr>
+<td>34052</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:mysql close</td>
+</tr>
+
+<tr>
+<td>34063</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.getAward category">hxlife_award.getAward</td>
+<td title="Message">50:start getaward class</td>
+</tr>
+
+<tr>
+<td>34064</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.getAward category">hxlife_award.getAward</td>
+<td title="Message">50:saleCode=111111111,award=5,usetel=13951905973;</td>
+</tr>
+
+<tr>
+<td>34065</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:mysql start connect</td>
+</tr>
+
+<tr>
+<td>34066</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:drive=com.mysql.jdbc.Driver</td>
+</tr>
+
+<tr>
+<td>34066</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:url=jdbc:mysql://localhost:3306/hxlife_award?useUnicode=true&characterEncoding=utf8,usr=root,pwd=abcd123%;</td>
+</tr>
+
+<tr>
+<td>34080</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50: SELECT awardNum5 FROM awardList WHERE actionCode='1000';</td>
+</tr>
+
+<tr>
+<td>34081</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50: SELECT userAward,userTime,awardTime FROM user WHERE userTel='13951905973';</td>
+</tr>
+
+<tr>
+<td>34082</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50: UPDATE user SET userAward='奖品4:奖品7:奖品5:奖品5',userTime= '2016-11-18 15:16:51/2016-11-18 15:41:38/2016-11-28 16:27:09/2016-11-29 11:44:42' WHERE userTel='13951905973';</td>
+</tr>
+
+<tr>
+<td>34083</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:INSERT into award VALUE (NULL,'13951905973','111111111','2016-11-29 11:44:42','奖品5');</td>
+</tr>
+
+<tr>
+<td>34085</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50: UPDATE user SET awardTime='101' WHERE userTel='13951905973';</td>
+</tr>
+
+<tr>
+<td>34090</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:mysql close</td>
+</tr>
+
+<tr>
+<td>50735</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.getPassword category">hxlife_award.getPassword</td>
+<td title="Message">50:start searchaward class</td>
+</tr>
+
+<tr>
+<td>50735</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.getPassword category">hxlife_award.getPassword</td>
+<td title="Message">50:userTelephone=13951905973,userLoginCheck=1111;</td>
+</tr>
+
+<tr>
+<td>50735</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:mysql start connect</td>
+</tr>
+
+<tr>
+<td>50736</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:drive=com.mysql.jdbc.Driver</td>
+</tr>
+
+<tr>
+<td>50736</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:url=jdbc:mysql://localhost:3306/hxlife_award?useUnicode=true&characterEncoding=utf8,usr=root,pwd=abcd123%;</td>
+</tr>
+
+<tr>
+<td>50748</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50: SELECT userAward,userTime FROM user WHERE userTel='13951905973';</td>
+</tr>
+
+<tr>
+<td>50749</td>
+<td title="http-bio-8080-exec-6 thread">http-bio-8080-exec-6</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">50:mysql close</td>
+</tr>
+
+<tr>
+<td>81509</td>
+<td title="http-bio-8080-exec-4 thread">http-bio-8080-exec-4</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.question category">hxlife_award.question</td>
+<td title="Message">47:start question class</td>
+</tr>
+
+<tr>
+<td>81510</td>
+<td title="http-bio-8080-exec-4 thread">http-bio-8080-exec-4</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.question category">hxlife_award.question</td>
+<td title="Message">47:userTelephone=13951905973,userLoginCheck=1111,name=孙,saleCode=111111111,question1=1,question2=1,question3=2,question4=1;</td>
+</tr>
+
+<tr>
+<td>81511</td>
+<td title="http-bio-8080-exec-4 thread">http-bio-8080-exec-4</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">47:mysql start connect</td>
+</tr>
+
+<tr>
+<td>81511</td>
+<td title="http-bio-8080-exec-4 thread">http-bio-8080-exec-4</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">47:drive=com.mysql.jdbc.Driver</td>
+</tr>
+
+<tr>
+<td>81511</td>
+<td title="http-bio-8080-exec-4 thread">http-bio-8080-exec-4</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">47:url=jdbc:mysql://localhost:3306/hxlife_award?useUnicode=true&characterEncoding=utf8,usr=root,pwd=abcd123%;</td>
+</tr>
+
+<tr>
+<td>81525</td>
+<td title="http-bio-8080-exec-4 thread">http-bio-8080-exec-4</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">47: SELECT state FROM sale WHERE saleCode='111111111';</td>
+</tr>
+
+<tr>
+<td>81526</td>
+<td title="http-bio-8080-exec-4 thread">http-bio-8080-exec-4</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">47: SELECT question FROM user WHERE userTel='13951905973';</td>
+</tr>
+
+<tr>
+<td>81527</td>
+<td title="http-bio-8080-exec-4 thread">http-bio-8080-exec-4</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">47:mysql close</td>
+</tr>
+
+<tr>
+<td>101066</td>
+<td title="http-bio-8080-exec-4 thread">http-bio-8080-exec-4</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.getPassword category">hxlife_award.getPassword</td>
+<td title="Message">47:start salelogin class</td>
+</tr>
+
+<tr>
+<td>101066</td>
+<td title="http-bio-8080-exec-4 thread">http-bio-8080-exec-4</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.getPassword category">hxlife_award.getPassword</td>
+<td title="Message">47:saleCode=111111111,salePassword=111111;</td>
+</tr>
+
+<tr>
+<td>101067</td>
+<td title="http-bio-8080-exec-4 thread">http-bio-8080-exec-4</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">47:mysql start connect</td>
+</tr>
+
+<tr>
+<td>101067</td>
+<td title="http-bio-8080-exec-4 thread">http-bio-8080-exec-4</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">47:drive=com.mysql.jdbc.Driver</td>
+</tr>
+
+<tr>
+<td>101067</td>
+<td title="http-bio-8080-exec-4 thread">http-bio-8080-exec-4</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">47:url=jdbc:mysql://localhost:3306/hxlife_award?useUnicode=true&characterEncoding=utf8,usr=root,pwd=abcd123%;</td>
+</tr>
+
+<tr>
+<td>101077</td>
+<td title="http-bio-8080-exec-4 thread">http-bio-8080-exec-4</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">47: SELECT password FROM sale WHERE saleCode='111111111';</td>
+</tr>
+
+<tr>
+<td>101078</td>
+<td title="http-bio-8080-exec-4 thread">http-bio-8080-exec-4</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">47:mysql close</td>
+</tr>
+
+<tr>
+<td>101425</td>
+<td title="http-bio-8080-exec-7 thread">http-bio-8080-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.getPassword category">hxlife_award.getPassword</td>
+<td title="Message">51:start salework class</td>
+</tr>
+
+<tr>
+<td>101426</td>
+<td title="http-bio-8080-exec-7 thread">http-bio-8080-exec-7</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.getPassword category">hxlife_award.getPassword</td>
+<td title="Message">51:saleCode=111111111;</td>
+</tr>
+
+<tr>
+<td>101426</td>
+<td title="http-bio-8080-exec-7 thread">http-bio-8080-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">51:mysql start connect</td>
+</tr>
+
+<tr>
+<td>101426</td>
+<td title="http-bio-8080-exec-7 thread">http-bio-8080-exec-7</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">51:drive=com.mysql.jdbc.Driver</td>
+</tr>
+
+<tr>
+<td>101427</td>
+<td title="http-bio-8080-exec-7 thread">http-bio-8080-exec-7</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">51:url=jdbc:mysql://localhost:3306/hxlife_award?useUnicode=true&characterEncoding=utf8,usr=root,pwd=abcd123%;</td>
+</tr>
+
+<tr>
+<td>101443</td>
+<td title="http-bio-8080-exec-7 thread">http-bio-8080-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">51: SELECT userName,userTel,userAward,userTime,question FROM user WHERE userSale='111111111';</td>
+</tr>
+
+<tr>
+<td>101444</td>
+<td title="http-bio-8080-exec-7 thread">http-bio-8080-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">51:mysql close</td>
+</tr>
+
+<tr>
+<td>121141</td>
+<td title="http-bio-8080-exec-7 thread">http-bio-8080-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.getPassword category">hxlife_award.getPassword</td>
+<td title="Message">47:start salelogin class</td>
+</tr>
+
+<tr>
+<td>121142</td>
+<td title="http-bio-8080-exec-7 thread">http-bio-8080-exec-7</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.getPassword category">hxlife_award.getPassword</td>
+<td title="Message">47:saleCode=123456789,salePassword=123456;</td>
+</tr>
+
+<tr>
+<td>121142</td>
+<td title="http-bio-8080-exec-7 thread">http-bio-8080-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">51:mysql start connect</td>
+</tr>
+
+<tr>
+<td>121143</td>
+<td title="http-bio-8080-exec-7 thread">http-bio-8080-exec-7</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">51:drive=com.mysql.jdbc.Driver</td>
+</tr>
+
+<tr>
+<td>121143</td>
+<td title="http-bio-8080-exec-7 thread">http-bio-8080-exec-7</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">51:url=jdbc:mysql://localhost:3306/hxlife_award?useUnicode=true&characterEncoding=utf8,usr=root,pwd=abcd123%;</td>
+</tr>
+
+<tr>
+<td>121154</td>
+<td title="http-bio-8080-exec-7 thread">http-bio-8080-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">51: SELECT password FROM sale WHERE saleCode='123456789';</td>
+</tr>
+
+<tr>
+<td>121155</td>
+<td title="http-bio-8080-exec-7 thread">http-bio-8080-exec-7</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">51:mysql close</td>
+</tr>
+
+<tr>
+<td>121283</td>
+<td title="http-bio-8080-exec-10 thread">http-bio-8080-exec-10</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.getPassword category">hxlife_award.getPassword</td>
+<td title="Message">51:start salework class</td>
+</tr>
+
+<tr>
+<td>121284</td>
+<td title="http-bio-8080-exec-10 thread">http-bio-8080-exec-10</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.getPassword category">hxlife_award.getPassword</td>
+<td title="Message">51:saleCode=123456789;</td>
+</tr>
+
+<tr>
+<td>121284</td>
+<td title="http-bio-8080-exec-10 thread">http-bio-8080-exec-10</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">54:mysql start connect</td>
+</tr>
+
+<tr>
+<td>121285</td>
+<td title="http-bio-8080-exec-10 thread">http-bio-8080-exec-10</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">54:drive=com.mysql.jdbc.Driver</td>
+</tr>
+
+<tr>
+<td>121285</td>
+<td title="http-bio-8080-exec-10 thread">http-bio-8080-exec-10</td>
+<td title="Level">INFO</td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">54:url=jdbc:mysql://localhost:3306/hxlife_award?useUnicode=true&characterEncoding=utf8,usr=root,pwd=abcd123%;</td>
+</tr>
+
+<tr>
+<td>121306</td>
+<td title="http-bio-8080-exec-10 thread">http-bio-8080-exec-10</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">54: SELECT userName,userTel,userAward,userTime,question FROM user WHERE userSale='123456789';</td>
+</tr>
+
+<tr>
+<td>121309</td>
+<td title="http-bio-8080-exec-10 thread">http-bio-8080-exec-10</td>
+<td title="Level"><font color="#339933">DEBUG</font></td>
+<td title="hxlife_award.mysqlAction category">hxlife_award.mysqlAction</td>
+<td title="Message">54:mysql close</td>
+</tr>
